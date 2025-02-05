@@ -1,5 +1,6 @@
 # In the name of Allah
 
+''' 021 '''
 myList = ["one", 1, True, 100.5]
 
 # Slicing

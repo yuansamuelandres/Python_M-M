@@ -1,6 +1,6 @@
 # In the name of Allah
 
-''' 021: List Methods I '''
+''' #022: List Methods I '''
 # Appending
 myFriends = ["Ahmad", "Paul", False]
 myFriends.append("Mazen")

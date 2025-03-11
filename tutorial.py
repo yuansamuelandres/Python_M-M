@@ -1,25 +1,30 @@
 # In the name of Allah
 
-''' #023: Lists Methods II '''
-# Clearing
-a = [1, 2, 5]
-a.clear()
+''' #024 & #025: Tuples & Methods '''
+# Tuple items are enclosed in parentheses & can be removed.
+# Tuple items are ordered & indexed.
+# Tuples are immutable.
+# Tuple items aren't unique.
+# Tuples can have different data types.
+# Strings & lists operators are used in tuples.
 
-# Copying
-b = [1, 2, 3, 4]
-c = b.copy()    # Shallow Copy
+# Tuple with one element ("",) :
+mine = "Yuan",
+print(type(mine))   # 'tuple'
 
 
-# Counting
-d = [1, 2, 1, 33, 2, 5, 1]
-print(d.count(1))   # 3
+# Tuple Concatenation
+a = 1, 2, "C", 3
+b = 4, 5
+c = a + b
+print(c)    # (1, 2, 3, 4, 5)
 
 # Indexing
-print(d.index(2))   # 1
+print("The position of index is: {:d}".format(c.index(3)))  # The position of index is: 2
+print(f"The position of index is: {c.index(3)}")    # The position of index is: 2
 
-# Inserting (Before the index)
-d.insert(0, "Sam")
-print(d)    # ['Sam', 1, 2, 1, 33, 2, 5, 1]
-
-# Popping
-print(d.pop(-3)) # 2 (The value deleted at index -3)
+# Destructing
+x, y, _, z = a
+print(x)    # 1
+print(y)    # 2
+print(z)    # 3

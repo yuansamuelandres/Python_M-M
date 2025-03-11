@@ -1,6 +1,6 @@
 # In the name of Allah
 
-''' #021: List Methods II '''
+''' #021: Lists '''
 myList = ["one", 1, True, 100.5]
 
 # Slicing
